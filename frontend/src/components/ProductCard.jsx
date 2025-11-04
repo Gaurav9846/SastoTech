@@ -24,6 +24,7 @@ const ProductCard = ({ product, loading }) => {
           <Skeleton className="w-[100px] h-4" />
           <Skeleton className="w-[150px] h-8" />
         </div>
+        
       ) : (
         <div className="px-2 space-y-1">
           <h1 className="font-semibold h-12 line-clamp-2">{productName}</h1>

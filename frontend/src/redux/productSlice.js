@@ -11,6 +11,7 @@ const productSlice = createSlice({
         setProducts:(state,action)=>{
             state.products = action.payload
         },
+        
         setCart:(state, action)=>{
             state.cart = action.payload
         }
