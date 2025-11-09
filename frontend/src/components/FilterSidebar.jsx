@@ -67,6 +67,7 @@ const FilterSidebar = ({ search, setSearch, category, setCategory, brand, setBra
 
         {/* price range  */}
         
+        
         <h1 className='mt-5 font-semibold text-xl mb-3'>Price Range</h1>
         <div className='flex flex-col gap-2'>
             <label>

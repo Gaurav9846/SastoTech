@@ -11,7 +11,6 @@ const Navbar = () => {
   const accessToken = localStorage.getItem("accessToken");
   const dispatch = useDispatch();
   const navigate = useNavigate()
-
   const logoutHandler = async () => {
     try {
       const res = await axios.post( ``,{},    //put api in the tilde

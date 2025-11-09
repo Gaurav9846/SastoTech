@@ -24,6 +24,7 @@ const Products = () => {
   const [sortOrder, setSortOrder] = useState('');
   const dispatch = useDispatch()
 
+  
   const getAllProducts =  async()=>{
     try {
       setLoading(true)
